@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.tomada{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tomada p {
+    margin-left: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+    padding: .7rem 1.3rem;
+    border-radius: 5px;
+}
+
+.card{
+    background-color: blueviolet;
+    width: 100%;
+    height: 320px;
+    max-width: 400px;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 1.1rem;
+}
+
+li{
+    color: white;
+    padding-top: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: blueviolet;
+    padding: .7rem 1.3rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
